@@ -1116,6 +1116,8 @@ div.form-group.form-toogle {
 .send_wishe_content > p{
 	padding-top: 18px;
 	padding-bottom: 10px;
+  font-weight:400;
+  font-size:22px;
 }
 /*****************************
    END WISHES AREA CSS
@@ -1513,14 +1515,14 @@ footer {
   right: calc(100% + 90px);
   top: -71px;
 }
-.donate_page .promot_section:before{
-	content: "";
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background: rgba(201,50,50,0.96);
+.donate_page .promot_section:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #3E503C;
 }
 .donate_page .promt_content h3{
 	color: #fff;
