@@ -148,7 +148,7 @@
     <value>Trener z wieloletnią praktyką w zakresie nauczania technologii w obszarze IT, programista fullstack, ze szczególnym uwzględnieniem zakresu baz danych - głównie w obszarze technologii Microsoftu.  Specjalista, nauczyciel i partner biznesowy, który z wiedzą, umiejętnościami, pasją i zaangażowaniem wprowadza swoich słuchaczy w świat programowania.</value>
   </data>
   <data name="AboutWeronikaMularczyk" xml:space="preserve">
-    <value>Główny organizator projektu od 2017 roku oraz programista. W projekcie łączy w sobie wiele roli: lider, manager, developer, devops, analityk, tester oraz specjalista ds. marketingu. Na co dzień bloguje na &lt;a href="http://www.programmer-girl.com" target="_blank" rel="noopener noreferrer" class="link"&gt;www.programmer-girl.com&lt;/a&gt; i aktywnie udziela się we wrocławskim świecie IT. Microsoft MVP i współorganizator Wrocławskiej grupy .NET.</value>
+    <value>Główny organizator projektu DevAdventCallendar od 2017 roku oraz programista. W projekcie łączy w sobie wiele roli: lider, manager, developer, devops, analityk, tester oraz specjalista ds. marketingu. Na co dzień bloguje na &lt;a href="http://www.programmer-girl.com" target="_blank" rel="noopener noreferrer" class="link"&gt;www.programmer-girl.com&lt;/a&gt; i aktywnie udziela się we wrocławskim świecie IT. Microsoft MVP i współorganizator Wrocławskiej grupy .NET.</value>
   </data>
   <data name="Accept" xml:space="preserve">
     <value>Akceptuj</value>
@@ -346,7 +346,7 @@
     <value>Integracja z kalendarzem Google</value>
   </data>
   <data name="GoogleCalendarIntegrationIntro" xml:space="preserve">
-    <value>W tej sekcji możesz zintegrować DevAdventCalendar z Twoim kalendarzem Google.</value>
+    <value>W tej sekcji możesz zintegrować CloudAdventCalendar z Twoim kalendarzem Google.</value>
   </data>
   <data name="GoogleCalendarIntegrationPermission1" xml:space="preserve">
     <value>Przeglądanie, edytowanie, udostępnianie i trwałe usuwanie wszystkich kalendarzy, do których masz dostęp w kalendarzu Google.</value>
@@ -370,10 +370,10 @@
     <value>Udanej &lt;br&gt; Zabawy</value>
   </data>
   <data name="HeadDescription" xml:space="preserve">
-    <value>DevAdventCalendar - inicjatywa łącząca tradycję kalendarza adwentowego z programowaniem. Celem jest stworzenie konkursu dla osób związanych ze światem IT.</value>
+    <value>CloudAdventCalendar - inicjatywa łącząca tradycję kalendarza adwentowego z zagadnieniami chmurowymi. Celem jest stworzenie konkursu dla osób związanych ze światem IT.</value>
   </data>
   <data name="HeadTitle" xml:space="preserve">
-    <value>DevAdventCalendar - programistyczny kalendarz adwentowy</value>
+    <value>CloudAdventCalendar - chmurowy kalendarz adwentowy</value>
   </data>
   <data name="Helion100" xml:space="preserve">
     <value>Bon 100 zł do Heliona</value>

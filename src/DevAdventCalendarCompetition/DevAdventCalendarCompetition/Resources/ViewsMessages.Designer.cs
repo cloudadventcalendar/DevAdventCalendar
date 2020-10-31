@@ -151,7 +151,7 @@ namespace DevAdventCalendarCompetition.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Główny organizator projektu od 2017 roku oraz programista. W projekcie łączy w sobie wiele roli: lider, manager, developer, devops, analityk, tester oraz specjalista ds. marketingu. Na co dzień bloguje na &lt;a href=&quot;http://www.programmer-girl.com&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;link&quot;&gt;www.programmer-girl.com&lt;/a&gt; i aktywnie udziela się we wrocławskim świecie IT. Microsoft MVP i współorganizator Wrocławskiej grupy .NET..
+        ///   Looks up a localized string similar to Główny organizator projektu DevAdventCallendar od 2017 roku oraz programista. W projekcie łączy w sobie wiele roli: lider, manager, developer, devops, analityk, tester oraz specjalista ds. marketingu. Na co dzień bloguje na &lt;a href=&quot;http://www.programmer-girl.com&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;link&quot;&gt;www.programmer-girl.com&lt;/a&gt; i aktywnie udziela się we wrocławskim świecie IT. Microsoft MVP i współorganizator Wrocławskiej grupy .NET..
         /// </summary>
         public static string AboutWeronikaMularczyk {
             get {
@@ -745,7 +745,7 @@ namespace DevAdventCalendarCompetition.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to W tej sekcji możesz zintegrować DevAdventCalendar z Twoim kalendarzem Google..
+        ///   Looks up a localized string similar to W tej sekcji możesz zintegrować CloudAdventCalendar z Twoim kalendarzem Google..
         /// </summary>
         public static string GoogleCalendarIntegrationIntro {
             get {
@@ -817,7 +817,7 @@ namespace DevAdventCalendarCompetition.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to DevAdventCalendar - inicjatywa łącząca tradycję kalendarza adwentowego z programowaniem. Celem jest stworzenie konkursu dla osób związanych ze światem IT..
+        ///   Looks up a localized string similar to CloudAdventCalendar - inicjatywa łącząca tradycję kalendarza adwentowego z zagadnieniami chmurowymi. Celem jest stworzenie konkursu dla osób związanych ze światem IT..
         /// </summary>
         public static string HeadDescription {
             get {
@@ -826,7 +826,7 @@ namespace DevAdventCalendarCompetition.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to DevAdventCalendar - programistyczny kalendarz adwentowy.
+        ///   Looks up a localized string similar to CloudAdventCalendar - chmurowy kalendarz adwentowy.
         /// </summary>
         public static string HeadTitle {
             get {
