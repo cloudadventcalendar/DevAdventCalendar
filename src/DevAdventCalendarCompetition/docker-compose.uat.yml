@@ -16,7 +16,7 @@ services:
     restart: unless-stopped
 
   devcal-app-uat:
-    image: docker.pkg.github.com/devadventcalendar/devadventcalendar/app:2019-dev
+    image: docker.pkg.github.com/cloudadventcalendar/devadventcalendar/app:2020
     container_name: devcal-app-uat
     env_file: app.uat.env
     networks: 

@@ -19,7 +19,7 @@ WORKDIR /app/DevAdventCalendarCompetition
 RUN dotnet publish -c Release -o /out
 WORKDIR /out
 
-LABEL maintainer="DevAdventCalendar (devadventcalendar@gmail.com)"
+LABEL maintainer="CloudAdventCalendar (cloudadventcalendar@gmail.com)"
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1 AS runtime
 WORKDIR /out
