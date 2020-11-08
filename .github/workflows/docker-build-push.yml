@@ -10,8 +10,6 @@ jobs:
   build:
  
     runs-on: ubuntu-18.04
-    env:
-      PACKAGE_REGISTRY_USER: devadventcalendar
     steps:
     - uses: actions/checkout@v1
     - name: Build the Docker image
