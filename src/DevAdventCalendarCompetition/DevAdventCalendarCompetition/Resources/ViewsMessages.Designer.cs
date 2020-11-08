@@ -70,6 +70,15 @@ namespace DevAdventCalendarCompetition.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to bla bla bla.
+        /// </summary>
+        public static string AboutDominikPrzywara {
+            get {
+                return ResourceManager.GetString("AboutDominikPrzywara", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Pasjonat programowania, automatyzacji oraz linuxa. W wolnych chwilach uwielbia seriale, rower oraz podróże, zarówno bliższe jak i te dalsze..
         /// </summary>
         public static string AboutGrzegorzMutkowski {
@@ -79,11 +88,11 @@ namespace DevAdventCalendarCompetition.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Student, który do projektu trafił szukając nowych wyzwań. Miłośnik kawy oraz filmów Marvela. W wolnym czasie lubi grać w planszowki ze znajomymi lub dokształcać się z zakresu ekonomii..
+        ///   Looks up a localized string similar to bla bla .
         /// </summary>
-        public static string AboutKamilJarzebski {
+        public static string AboutJoannaLamch {
             get {
-                return ResourceManager.GetString("AboutKamilJarzebski", resourceCulture);
+                return ResourceManager.GetString("AboutJoannaLamch", resourceCulture);
             }
         }
         
@@ -124,15 +133,6 @@ namespace DevAdventCalendarCompetition.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Współorganizator projektu od 2018 zajmujący się marketingiem, promocją i wszystkim, co nie jest kodem. Na co dzień wręcz odwrotnie - programista piszący w Javie, Kotlinie i właściwie w czym potrzeba. Do tego zdarza mu się poprowadzić szkolenie, wydać kurs, czy pomóc w organizacji jakiejś konferencji. Bloguje na &lt;a href=&quot;https://www.michalgellert.pl/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;link&quot;&gt;www.michalgellert.pl&lt;/a&gt;..
-        /// </summary>
-        public static string AboutMichalGellert {
-            get {
-                return ResourceManager.GetString("AboutMichalGellert", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Programista .NET, fan(atyk) automatyzacji. Pasjonat programowania i czystego kodu. Aktywny uczestnik lokalnych konferencji i grup programistycznych. Po godzinach miłośnik książek, filmów, seriali i gier fantasy oraz sci-fi..
         /// </summary>
         public static string AboutPatrykLotzwi {
@@ -151,7 +151,7 @@ namespace DevAdventCalendarCompetition.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Główny organizator projektu od 2017 roku oraz programista. W projekcie łączy w sobie wiele roli: lider, manager, developer, devops, analityk, tester oraz specjalista ds. marketingu. Na co dzień bloguje na &lt;a href=&quot;http://www.programmer-girl.com&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;link&quot;&gt;www.programmer-girl.com&lt;/a&gt; i aktywnie udziela się we wrocławskim świecie IT. Microsoft MVP i współorganizator Wrocławskiej grupy .NET..
+        ///   Looks up a localized string similar to Główny organizator projektu DevAdventCallendar od 2017 roku oraz programista. W projekcie łączy w sobie wiele roli: lider, manager, developer, devops, analityk, tester oraz specjalista ds. marketingu. Na co dzień bloguje na &lt;a href=&quot;http://www.programmer-girl.com&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;link&quot;&gt;www.programmer-girl.com&lt;/a&gt; i aktywnie udziela się we wrocławskim świecie IT. Microsoft MVP i współorganizator Wrocławskiej grupy .NET..
         /// </summary>
         public static string AboutWeronikaMularczyk {
             get {
@@ -745,7 +745,7 @@ namespace DevAdventCalendarCompetition.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to W tej sekcji możesz zintegrować DevAdventCalendar z Twoim kalendarzem Google..
+        ///   Looks up a localized string similar to W tej sekcji możesz zintegrować CloudAdventCalendar z Twoim kalendarzem Google..
         /// </summary>
         public static string GoogleCalendarIntegrationIntro {
             get {
@@ -817,7 +817,7 @@ namespace DevAdventCalendarCompetition.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to DevAdventCalendar - inicjatywa łącząca tradycję kalendarza adwentowego z programowaniem. Celem jest stworzenie konkursu dla osób związanych ze światem IT..
+        ///   Looks up a localized string similar to CloudAdventCalendar - inicjatywa łącząca tradycję kalendarza adwentowego z zagadnieniami chmurowymi. Celem jest stworzenie konkursu dla osób związanych ze światem IT..
         /// </summary>
         public static string HeadDescription {
             get {
@@ -826,7 +826,7 @@ namespace DevAdventCalendarCompetition.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to DevAdventCalendar - programistyczny kalendarz adwentowy.
+        ///   Looks up a localized string similar to CloudAdventCalendar - chmurowy kalendarz adwentowy.
         /// </summary>
         public static string HeadTitle {
             get {
@@ -934,7 +934,7 @@ namespace DevAdventCalendarCompetition.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to W tamtym roku otrzymaliście nagrody.
+        ///   Looks up a localized string similar to Główne nagrody.
         /// </summary>
         public static string MainPrizes {
             get {
@@ -1123,7 +1123,7 @@ namespace DevAdventCalendarCompetition.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Wypaśne słuchawki, Raspberry Pi 4, książki, wejściówki i wiele innych. Sami sprawdźcie, dlaczego w tym roku warto być grzecznym.
+        ///   Looks up a localized string similar to Sami sprawdźcie, dlaczego warto sprawdzać swoja wiedzę i pobawić się z nami..
         /// </summary>
         public static string PresentsDescription {
             get {
@@ -1461,6 +1461,15 @@ namespace DevAdventCalendarCompetition.Resources {
         public static string Surprise {
             get {
                 return ResourceManager.GetString("Surprise", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Voucher Szkoły Chmury.
+        /// </summary>
+        public static string SzkolaChmury {
+            get {
+                return ResourceManager.GetString("SzkolaChmury", resourceCulture);
             }
         }
         

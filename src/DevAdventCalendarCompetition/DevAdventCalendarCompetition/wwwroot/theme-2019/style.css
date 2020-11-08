@@ -190,12 +190,12 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /* SECTION/AREA TITLE CSS*/
-.area_title h3{
-	color: #c93232;
-	line-height: 36px;
-	font-size: 25px;
-	font-weight: 700;
-	letter-spacing: 2px;
+.area_title h3 {
+  color: #3E503C;
+  line-height: 36px;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 .area_title h3.black{
 	color: #3a3a3a;
@@ -219,17 +219,17 @@ h1,h2,h3,h4,h5,h6{
 
 
 /* CHRISTMAS BUTTON */
-.chris_btn{
-	font-family: "Roboto slab",serif;
-	font-size: 16px;
-	line-height: 55px;
-	font-weight: 700;
-	color: #fff;
-	background: #c93232;
-	text-transform: uppercase;
-	display: inline-block;
-	padding: 0 24px;
-	border: 2px solid #272727;
+.chris_btn {
+  font-family: "Roboto slab",serif;
+  font-size: 16px;
+  line-height: 55px;
+  font-weight: 700;
+  color: #fff;
+  background: #FF6F3D;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0 24px;
+  border: 2px solid #272727;
 }
 .chris_btn:hover, .donate_btn:hover {
     color: #ddd;
@@ -269,10 +269,10 @@ div.form-group.form-toogle {
 	margin: 0;
 	padding: 0;
 }
-.breadcrumb_area{
-	background: #c93232;
-	padding-top: 30px;
-	padding-bottom: 30px;
+.breadcrumb_area {
+  background: #7F886A;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .breadcrumb_area ul li{
 	display: inline-block;
@@ -314,25 +314,25 @@ div.form-group.form-toogle {
   display: inline-block;
 }
 .main_menu .menu_toggler{
-	top: 46px;
+	top: 40px;
 	z-index: 5;
-	transition: 0.4s;
+	transition: 0.1s;
 	position: fixed;
 }
-.menu_toggler:before{
-	background: #c93232 none repeat scroll 0 0;
-	content: "";
-	position: absolute;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-	opacity: 0;
-	-webkit-transform: scale(0);
-	-ms-transform: scale(0);
-	transform: scale(0);
-	left: -7px;
-	top: -7px;
-	transition: 0.4s;
+.menu_toggler:before {
+  background: #FF6F3D none repeat scroll 0 0;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  left: -7px;
+  top: -7px;
+  transition: 0.4s;
 }
 .menu_toggler.changeColor:before{
 	-webkit-transform: scale(1);
@@ -961,9 +961,9 @@ div.form-group.form-toogle {
 /*****************************
    START COUNTER AREA CSS
 ******************************/
-.counter_area{
-	background: #c93232;
-	overflow: hidden;
+.counter_area {
+  background: #7F886A;
+  overflow: hidden;
 }
 .left_side{
 	background: #272727;
@@ -1116,6 +1116,8 @@ div.form-group.form-toogle {
 .send_wishe_content > p{
 	padding-top: 18px;
 	padding-bottom: 10px;
+  font-weight:400;
+  font-size:22px;
 }
 /*****************************
    END WISHES AREA CSS
@@ -1417,8 +1419,8 @@ div.form-group.form-toogle {
 /*****************************
    START FOOTER AREA
 ******************************/
-footer{
-	background: #c93232;
+footer {
+  background: #3E503C;
 }
 .social_icons ul {
 	display: inline-block;
@@ -1429,16 +1431,16 @@ footer{
 .social_icons ul li + li{
 	margin-left: 13px;
 }
-.social_icons ul li a{
-	line-height: 27px;
-	width: 27px;
-	background: #fff;
-	color: #c93232;
-	display: block;
-	text-align: center;
-	border-radius: 50%;
-	font-size: 16px;
-}
+  .social_icons ul li a {
+    line-height: 33px;
+    width: 33px;
+    background: #FF6F3D;
+    color: #F3ECDB;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 16px;
+  }
 .social_icons, .legal_text,.christmas_footer_logo{
 	margin: 40px 0;
 }
@@ -1513,14 +1515,14 @@ footer{
   right: calc(100% + 90px);
   top: -71px;
 }
-.donate_page .promot_section:before{
-	content: "";
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background: rgba(201,50,50,0.96);
+.donate_page .promot_section:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #3E503C;
 }
 .donate_page .promt_content h3{
 	color: #fff;
@@ -1979,27 +1981,27 @@ footer{
 	background-repeat: no-repeat;
 	position: relative;
 }
-.pricing_area:before{
-	content: "";
-	top: 0;
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	background: rgba(201,50,50,0.95);
-}
-.single_pricing_block{
-	background: #c93232;
-	border: 1px solid rgba(255, 255, 255, 0.40);
-	padding: 3px;
-	overflow: hidden;
-	margin-bottom: 30px;
+  .pricing_area:before {
+    content: "";
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #7F886A;
+  }
+.single_pricing_block {
+  background: #F3ECDB;
+  border: 1px solid #7F886A;
+  padding: 3px;
+  overflow: hidden;
+  margin-bottom: 30px;
 }
 .pricing_title h4 {
-    font-size: 18px;
-    color: #fff;
-    font-family: "roboto",sans-serif;
-    line-height: 37px;
-    font-weight: 700;
+  font-size: 18px;
+  color: #0E2624;
+  font-family: "roboto",sans-serif;
+  line-height: 37px;
+  font-weight: 700;
 }
 .pricing_left, .pricing_right{
 	display: inline-block;
@@ -2009,8 +2011,12 @@ footer{
 	padding-bottom: 20px;
 }
 .event_info ul li {
-    color: #ebebeb;
-	margin-bottom: 7px;
+  color: #0E2624;
+  margin-bottom: 7px;
+}
+.event_info .link {
+  color: #0E2624;
+  margin-bottom: 7px;
 }
 .event_info span::after {
 	content: ":";
@@ -2342,20 +2348,20 @@ body {
 }
 
 .icon-social-round {
-    display: inline-block;
-    line-height: 27px;
-    width: 27px;
-    background: #fff;
-    color: #c93232;
-    text-align: center;
-    border-radius: 50%;
-    font-size: 16px;
+  display: inline-block;
+  line-height: 40px;
+  width: 40px;
+  background: #3E503C;
+  color: #F3ECDB;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 20px;
 }
 
-.icon-social-round:hover {
-    background: #ddd;
-    color: #c93232;
-}
+  .icon-social-round:hover {
+    background: #FF6F3D;
+    color: #F3ECDB;
+  }
 
 .icon-social-dark {
     background: #222;

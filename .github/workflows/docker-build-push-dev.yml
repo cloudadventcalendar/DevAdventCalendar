@@ -10,15 +10,13 @@ jobs:
   build:
  
     runs-on: ubuntu-18.04
-    env:
-      PACKAGE_REGISTRY_USER: devadventcalendar
     steps:
     - uses: actions/checkout@v1
     - name: Build the Docker image
       run: |
         cd src/DevAdventCalendarCompetition 
-        docker build . --file Dockerfile --tag docker.pkg.github.com/devadventcalendar/devadventcalendar/app:2019-dev
+        docker build . --file Dockerfile --tag docker.pkg.github.com/cloudadventcalendar/devadventcalendar/app:2020-dev
     - name: Push the Docker image
       run: |
-        docker login docker.pkg.github.com --username ${{ env.PACKAGE_REGISTRY_USER }} --password ${{ secrets.PACKAGE_REGISTRY_TOKEN }}
-        docker push docker.pkg.github.com/devadventcalendar/devadventcalendar/app:2019-dev
+        echo "${{ github.token }}" | docker login https://docker.pkg.github.com -u ${GITHUB_ACTOR} --password-stdin
+        docker push docker.pkg.github.com/cloudadventcalendar/devadventcalendar/app:2020-dev

@@ -129,11 +129,11 @@
   <data name="AboutKamilSmieszek" xml:space="preserve">
     <value>Programista Java, który zmienił obóz z Oracle na Microsoft pod wpływem .NET Core. Interesuje się tematyką sieci komputerowych, bezpieczeństwem aplikacji, a w wolnych chwilach lubi spalić nieco benzyny na torze wyścigowym i tworzyć trance.</value>
   </data>
-  <data name="AboutMichalGellert" xml:space="preserve">
-    <value>Współorganizator projektu od 2018 zajmujący się marketingiem, promocją i wszystkim, co nie jest kodem. Na co dzień wręcz odwrotnie - programista piszący w Javie, Kotlinie i właściwie w czym potrzeba. Do tego zdarza mu się poprowadzić szkolenie, wydać kurs, czy pomóc w organizacji jakiejś konferencji. Bloguje na &lt;a href="https://www.michalgellert.pl/" target="_blank" rel="noopener noreferrer" class="link"&gt;www.michalgellert.pl&lt;/a&gt;.</value>
+  <data name="AboutJoannaLamch" xml:space="preserve">
+    <value>bla bla </value>
   </data>
-  <data name="AboutKamilJarzebski" xml:space="preserve">
-    <value>Student, który do projektu trafił szukając nowych wyzwań. Miłośnik kawy oraz filmów Marvela. W wolnym czasie lubi grać w planszowki ze znajomymi lub dokształcać się z zakresu ekonomii.</value>
+  <data name="AboutDominikPrzywara" xml:space="preserve">
+    <value>bla bla bla</value>
   </data>
   <data name="AboutGrzegorzMutkowski" xml:space="preserve">
     <value>Pasjonat programowania, automatyzacji oraz linuxa. W wolnych chwilach uwielbia seriale, rower oraz podróże, zarówno bliższe jak i te dalsze.</value>
@@ -148,7 +148,7 @@
     <value>Trener z wieloletnią praktyką w zakresie nauczania technologii w obszarze IT, programista fullstack, ze szczególnym uwzględnieniem zakresu baz danych - głównie w obszarze technologii Microsoftu.  Specjalista, nauczyciel i partner biznesowy, który z wiedzą, umiejętnościami, pasją i zaangażowaniem wprowadza swoich słuchaczy w świat programowania.</value>
   </data>
   <data name="AboutWeronikaMularczyk" xml:space="preserve">
-    <value>Główny organizator projektu od 2017 roku oraz programista. W projekcie łączy w sobie wiele roli: lider, manager, developer, devops, analityk, tester oraz specjalista ds. marketingu. Na co dzień bloguje na &lt;a href="http://www.programmer-girl.com" target="_blank" rel="noopener noreferrer" class="link"&gt;www.programmer-girl.com&lt;/a&gt; i aktywnie udziela się we wrocławskim świecie IT. Microsoft MVP i współorganizator Wrocławskiej grupy .NET.</value>
+    <value>Główny organizator projektu DevAdventCallendar od 2017 roku oraz programista. W projekcie łączy w sobie wiele roli: lider, manager, developer, devops, analityk, tester oraz specjalista ds. marketingu. Na co dzień bloguje na &lt;a href="http://www.programmer-girl.com" target="_blank" rel="noopener noreferrer" class="link"&gt;www.programmer-girl.com&lt;/a&gt; i aktywnie udziela się we wrocławskim świecie IT. Microsoft MVP i współorganizator Wrocławskiej grupy .NET.</value>
   </data>
   <data name="Accept" xml:space="preserve">
     <value>Akceptuj</value>
@@ -346,7 +346,7 @@
     <value>Integracja z kalendarzem Google</value>
   </data>
   <data name="GoogleCalendarIntegrationIntro" xml:space="preserve">
-    <value>W tej sekcji możesz zintegrować DevAdventCalendar z Twoim kalendarzem Google.</value>
+    <value>W tej sekcji możesz zintegrować CloudAdventCalendar z Twoim kalendarzem Google.</value>
   </data>
   <data name="GoogleCalendarIntegrationPermission1" xml:space="preserve">
     <value>Przeglądanie, edytowanie, udostępnianie i trwałe usuwanie wszystkich kalendarzy, do których masz dostęp w kalendarzu Google.</value>
@@ -370,10 +370,10 @@
     <value>Udanej &lt;br&gt; Zabawy</value>
   </data>
   <data name="HeadDescription" xml:space="preserve">
-    <value>DevAdventCalendar - inicjatywa łącząca tradycję kalendarza adwentowego z programowaniem. Celem jest stworzenie konkursu dla osób związanych ze światem IT.</value>
+    <value>CloudAdventCalendar - inicjatywa łącząca tradycję kalendarza adwentowego z zagadnieniami chmurowymi. Celem jest stworzenie konkursu dla osób związanych ze światem IT.</value>
   </data>
   <data name="HeadTitle" xml:space="preserve">
-    <value>DevAdventCalendar - programistyczny kalendarz adwentowy</value>
+    <value>CloudAdventCalendar - chmurowy kalendarz adwentowy</value>
   </data>
   <data name="Helion100" xml:space="preserve">
     <value>Bon 100 zł do Heliona</value>
@@ -406,7 +406,7 @@
     <value>Zaloguj używając loginu i hasła</value>
   </data>
   <data name="MainPrizes" xml:space="preserve">
-    <value>W tamtym roku otrzymaliście nagrody</value>
+    <value>Główne nagrody</value>
   </data>
   <data name="ManageYourAccount" xml:space="preserve">
     <value>Twoje konto</value>
@@ -463,7 +463,7 @@
     <value>Mikołaj ma dla Was wyjątkowe prezenty</value>
   </data>
   <data name="PresentsDescription" xml:space="preserve">
-    <value>Wypaśne słuchawki, Raspberry Pi 4, książki, wejściówki i wiele innych. Sami sprawdźcie, dlaczego w tym roku warto być grzecznym</value>
+    <value>Sami sprawdźcie, dlaczego warto sprawdzać swoja wiedzę i pobawić się z nami.</value>
   </data>
   <data name="Previous" xml:space="preserve">
     <value>Wstecz</value>
@@ -536,6 +536,9 @@
   </data>
   <data name="Sennheiser" xml:space="preserve">
     <value>Słuchawki Sennheiser 4.50 BTNC Wireless</value>
+  </data>
+  <data name="SzkolaChmury" xml:space="preserve">
+    <value>Voucher Szkoły Chmury</value>
   </data>
   <data name="SetPassword" xml:space="preserve">
     <value>Ustaw hasło</value>
