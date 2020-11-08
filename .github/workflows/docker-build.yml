@@ -38,4 +38,4 @@ jobs:
       if: success()
       run: |
         cd src/DevAdventCalendarCompetition
-        docker build . --file Dockerfile --tag devadventcalendar/devadventcalendar:2019
+        docker build . --file Dockerfile --tag cloudadventcalendar/devadventcalendar:2020

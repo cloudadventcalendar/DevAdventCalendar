@@ -16,7 +16,7 @@ services:
     restart: unless-stopped
 
   devcal-app-prod:
-    image: docker.pkg.github.com/devadventcalendar/devadventcalendar/app:2019
+    image: docker.pkg.github.com/cloudadventcalendar/devadventcalendar/app:2020
     container_name: devcal-app-prod
     env_file: app.prod.env
     networks: 
